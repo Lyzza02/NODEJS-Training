@@ -1,10 +1,7 @@
-// how to run a file inside the termina; ---> node <filename>
-console.log("Hello world");
+const add = require('./add.js');
 
-// addition of two numbers
-const add = (a, b) => {
-    return a + b;
-};
+// print hello world
+console.log("Hello world");
 
 const sum = add(1, 2);
 console.log(sum);
